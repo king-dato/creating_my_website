@@ -17,8 +17,25 @@
 // global scope
 let x = 5;
 
-if (true) {
-  console.log("This is the block scope", x);
-}
+// if (true) {
+//   console.log("This is the block scope", x);
+// }
 
-console.log("This is the global scope", x);
+// console.log("This is the global scope", x);
+
+// for (let i = 1; i < 5; i++) console.log(i);
+
+// class Employee{
+
+// }
+
+// = new Employee()
+
+// function multiply() {
+//   console.log("MUltiply function log");
+// }
+// multiply();
+
+let fruits = ["apple", "mango", "banana"];
+
+console.log(fruits[0]);
