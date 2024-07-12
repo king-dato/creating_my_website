@@ -39,3 +39,7 @@ let x = 5;
 let fruits = ["apple", "mango", "banana"];
 
 console.log(fruits[0]);
+
+function sayHello() {
+  alert("Hello From External Js");
+}
