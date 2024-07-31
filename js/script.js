@@ -36,10 +36,24 @@ let x = 5;
 // }
 // multiply();
 
-let fruits = ["apple", "mango", "banana"];
+// let fruits = ["apple", "mango", "banana"];
 
-console.log(fruits[0]);
+// console.log(fruits[0]);
 
-function sayHello() {
-  alert("Hello From External Js");
+// function sayHello() {
+//   alert("Hello From External Js");
+// }
+
+const clients = [
+  "Mango",
+  "Poly",
+  "Ajax",
+  "samsung",
+  "jave",
+  "america",
+  "goliath",
+];
+
+for (let i = 1; i < clients.length; i + 3) {
+  console.log(clients[i]);
 }
