@@ -89,3 +89,11 @@ function myFunction(a, b) {
   return a * b;
 }
 console.log(x);
+
+let cars = document.querySelectorAll("li");
+
+cars.forEach((li) => {
+  li.addEventListener("click", (e) => {
+    alert(e.target.innerText + "is clicked");
+  });
+});
